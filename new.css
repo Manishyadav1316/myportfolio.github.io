@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(23, 6, 63);
+    color: white;
+    font-family:'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(61, 6, 58);
+}
+nav ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 5px;  
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(156, 243, 238);
+}
+nav ul li a:hover{
+    color: rgba(114, 169, 94, 0.664);
+}
+nav button{
+    background-color: rgb(31, 5, 29);
+    width: 90px;
+    height: 26px;
+    border-radius: 10px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80pxpx 0;
+}
+.firstsection > div{
+    font-size: 2.5rem;
+    width: 30%;
+}
+.leftsection{
+    width: 30%;
+}
+.button button{
+    background-color: rgb(8, 8, 48);
+    color: rgb(156, 243, 238);
+    width: 155px;
+    padding: 8px;
+    height: 45px;
+    margin: 25px 17px;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 8px;
+
+}
+.rightsection img{
+    width: 400px;
+    margin: 110px 10px;   
+}
+.name{
+    color: blueviolet;
+}
+#element{
+    color:blueviolet;
+}
+
+hr{
+    margin: 32px;
+    background: #9700ff;
+    height: 1px;
+}
+.secondsection{
+    margin: 41px 713px;
+}
+.secondleft{
+    background: #443969db;
+    width: 572px;
+    height: 218px;
+    margin: 47px -574px;
+    border: 2px solid #b0f;
+    border-radius: 40px;
+    
+    
+}
+ h3{
+    margin: 3px 10px;
+    padding: 11px;
+}
+.secondleft p{
+    margin: -8px 21px;
+    color:  #deb6ff;
+    font-size: 18px;
+}
+.course{
+    color: #afd4b8;
+    text-decoration: underline;
+}
+.secondright{
+    margin: -265px 109px;
+    width: 572px;
+    background: #443969db;
+    height: 218px;
+    border: 2px solid #b0f;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.secondright p{
+    margin: 17px 23px;
+    color: #deb6ff;
+    font-size: 18px;
+}
+.hr hr{
+    margin: 355px 32px;
+}
+
+div hr{
+    margin: 47px -678px;
+    height: 0.6px;
+}
+#thirdleft {
+    background: #0000007d;
+    margin: -37px 2px;
+    align-items: center;
+    height: 200px;
+ }
+.para h4{
+    text-align: center;
+    background-position: bottom;
+ }
+#thirdsection{
+    background-color: #08043e;
+    width: 1536px;
+    height: 135px;
+    margin: -19px -2px;
+    font-size:large;
+    text-align: center;
+}
+#thirdsection .social a i{
+    background-color: #08043e;
+    text-align: center;
+    border: #681717;
+    border-radius: 5pxS;
+    font-size: 25px;
+    margin: 35px 12px;
+}
+#thirdsection .i:hover{
+    background-color: rgba(0, 234, 255, 0.785);
+    background-color: aqua;
+}
+   
+
+
+
